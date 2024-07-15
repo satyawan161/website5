@@ -1,0 +1,604 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.photograph {
+    width: 100%;
+
+}
+
+.photograph h1 {
+    color: rgb(146, 146, 146);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    letter-spacing: 7px;
+    padding-top: 150px;
+}
+
+.photograph h2 {
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    letter-spacing: 5px;
+    padding-top: 12px;
+}
+
+.photograph ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 26%;
+}
+
+.photograph ul li {
+    padding: 9px 17px;
+    width: 100%;
+    border: 1px rgb(204, 204, 204) solid;
+
+}
+
+.photograph ul .first {
+    border-right: none;
+}
+
+.photograph ul .second {
+    border-right: none;
+    border-left: none;
+
+}
+
+.photograph ul .third {
+    border-right: none;
+    border-left: none;
+
+}
+
+.photograph ul .forth {
+    border-left: none;
+}
+
+.photograph ul li a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.sky {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover:hover {
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.img {
+    margin-top: 180px;
+    display: flex;
+}
+
+.img1 {
+    width: 50%;
+}
+
+.img1 .photo1 {
+    padding: 0px 9px 4px 15px;
+    width: 100%;
+}
+
+.img1 .photo2 {
+    padding: 4px 9px 4px 15px;
+    width: 100%;
+    filter: grayscale();
+}
+
+.img1 .photo3 {
+    padding: 4px 9px 4px 15px;
+    width: 100%;
+}
+
+.img1 .photo4 {
+    padding: 4px 9px 4px 15px;
+    width: 100%;
+    filter: grayscale();
+
+}
+
+.img1 .photo5 {
+    padding: 4px 9px 4px 15px;
+    width: 100%;
+    filter: grayscale();
+
+}
+
+.img1 .photo6 {
+    padding: 4px 9px 4px 15px;
+    width: 100%;
+    height: 200px;
+    filter: grayscale();
+    
+
+}
+
+.img1 .photo7 {
+    padding: 4px 9px 4px 15px;
+    width: 100%;
+    filter: grayscale();
+
+}
+
+.img2 {
+    width: 50%;
+   
+}
+.img2 .photo1{
+     padding: 0px 15px 4px 8px;
+     width: 100%;
+     filter: grayscale();
+}
+.img2 .photo2{
+    padding: 4px 15px 4px 8px;
+    width: 100%;
+    filter: grayscale();
+}
+.img2 .photo3{
+    padding: 4px 15px 4px 8px;
+    width: 100%;
+    filter: grayscale();
+}
+.img2 .photo4{
+    padding: 4px 15px 4px 8px;
+    width: 100%;
+    filter: grayscale();
+}
+.img2 .photo5{
+    padding: 4px 15px 4px 8px;
+    width: 100%;
+    filter: grayscale();
+}
+.img2 .photo6{
+    padding: 4px 15px 4px 8px;
+    width: 100%;
+    filter: grayscale();
+}
+.ground{
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 70px;
+    margin-top: 100px;
+}
+.ground h2{
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2.5px;
+}
+.ground a{
+    color: black;
+}
+
+i{
+    color: black;
+}
+/* ---------------------------------------------------------------- */
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 350px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        width: 100%;
+    }
+    .photograph {
+        width: 100%;
+    
+    }
+    
+    .photograph h1 {
+        color: rgb(146, 146, 146);
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        letter-spacing: 4px;
+        padding-top: 50px;
+    }
+    
+    .photograph h2 {
+        color: rgb(102, 102, 102);
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        letter-spacing: 4px;
+        padding-top: 8px;
+    }
+    
+    .photograph ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .photograph ul li {
+        padding: 5px 0px;
+        width: 100%;
+        margin-top: 5px;
+        border: 1px rgb(204, 204, 204) solid;
+        text-align: center;
+    }
+    
+    .photograph ul .first {
+        border: 1px rgb(204, 204, 204) solid;
+       
+    }
+    
+    .photograph ul .second {
+        border: 1px rgb(204, 204, 204) solid;
+      
+    
+    }
+    
+    .photograph ul .third {
+        border: 1px rgb(204, 204, 204) solid;
+       
+    }
+    
+    .photograph ul .forth {
+        display: none;
+        border-left: none;
+    }
+    
+    .photograph ul li a {
+        text-decoration: none;
+        color: rgb(121, 121, 121);
+        font-size: 18px;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+    }
+    
+    .sky {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hover:hover {
+        background-color: rgb(214, 214, 214);
+        cursor: pointer;
+    }
+    
+    .img {
+        margin-top: 60px;
+        display: block;
+    }
+    
+    .img1 {
+        width: 100%;
+    }
+    
+    .img1 .photo1 {
+       padding: 10px;
+        width: 100%;
+    }
+    
+    .img1 .photo2 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    
+    .img1 .photo3 {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .img1 .photo4 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    
+    }
+    
+    .img1 .photo5 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    
+    }
+    
+    .img1 .photo6 {
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+        filter: grayscale();
+    }
+    
+    .img1 .photo7 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    
+    .img2 {
+        width: 100%;
+    }
+    .img2 .photo1{
+         padding: 10px;
+         width: 100%;
+         filter: grayscale();
+    }
+    .img2 .photo2{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo3{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo4{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo5{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo6{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .ground{
+        background-color: rgb(199, 199, 199);
+        text-align: center;
+        margin-top: 50px;
+        padding: 5px;
+    }
+    .ground h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: black;
+        letter-spacing: 2.5px;
+    }
+    .ground a{
+        color: black;
+    }
+}
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+@media only screen and (min-device-width: 351px) and (max-device-width: 600px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        width: 100%;
+    }
+    .photograph {
+        width: 100%;
+    
+    }
+    
+    .photograph h1 {
+        color: rgb(146, 146, 146);
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        letter-spacing: 7px;
+        padding-top: 80px;
+    }
+    
+    .photograph h2 {
+        color: rgb(102, 102, 102);
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 350;
+        letter-spacing: 5px;
+        padding-top: 8px;
+    }
+    
+    .photograph ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        width: 26%;
+    }
+    
+    .photograph ul li {
+        padding: 9px 17px;
+        width: 100%;
+        border: 1px rgb(204, 204, 204) solid;
+    
+    }
+    
+    .photograph ul .first {
+        border-right: none;
+    }
+    
+    .photograph ul .second {
+        border-right: none;
+        border-left: none;
+    
+    }
+    
+    .photograph ul .third {
+        border-right: none;
+        border-left: none;
+    
+    }
+    
+    .photograph ul .forth {
+        border-left: none;
+    }
+    
+    .photograph ul li a {
+        text-decoration: none;
+        color: rgb(121, 121, 121);
+        font-size: 18px;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        font-size: 17px;
+    }
+    
+    .sky {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hover:hover {
+        background-color: rgb(214, 214, 214);
+        cursor: pointer;
+    }
+    
+    .img {
+        margin-top: 60px;
+        display: block;
+    }
+    
+    .img1 {
+        width: 100%;
+    }
+    
+    .img1 .photo1 {
+       padding: 10px;
+        width: 100%;
+    }
+    
+    .img1 .photo2 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    
+    .img1 .photo3 {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .img1 .photo4 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    
+    }
+    
+    .img1 .photo5 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    
+    }
+    
+    .img1 .photo6 {
+        padding: 10px;
+        width: 100%;
+        height: 200px;
+        filter: grayscale();
+    }
+    
+    .img1 .photo7 {
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    
+    .img2 {
+        width: 100%;
+    }
+    .img2 .photo1{
+         padding: 10px;
+         width: 100%;
+         filter: grayscale();
+    }
+    .img2 .photo2{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo3{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo4{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo5{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .img2 .photo6{
+        padding: 10px;
+        width: 100%;
+        filter: grayscale();
+    }
+    .ground{
+        background-color: rgb(199, 199, 199);
+        text-align: center;
+        margin-top: 50px;
+        padding: 5px;
+    }
+    .ground h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: black;
+        letter-spacing: 2.5px;
+    }
+    .ground a{
+        color: black;
+    }
+}
